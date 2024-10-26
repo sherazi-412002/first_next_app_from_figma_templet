@@ -14,8 +14,8 @@ function HeroSection() {
 
             <div className='flex flex-col mt-[220px] text-left leading-none'>
 
-            <p className='text-[64px] text-gray-400 font-light'>PROJECT</p>
-            <p className='font-bold text-[64px]'>LORUM</p>
+              <p className='text-[64px] text-gray-400 font-light'>PROJECT</p>
+              <p className='font-bold text-[64px]'>LORUM</p>
 
             </div>
 
@@ -28,7 +28,7 @@ function HeroSection() {
 
             <div>
 
-                <Image src={Img04} alt='number-line' height={1000} width={1000} className='h-[52px] w-[142px]'/>
+              <Image src={Img04} alt='number-line' height={1000} width={1000} className='h-[52px] w-[142px]'/>
 
             </div>
 
