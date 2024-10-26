@@ -11,6 +11,10 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'input':'#f3f3f3',
+        'ftcolor':'#2C2C2C',
+        'ftSep':'#D8D8D8',
+        'ftText':'#C8C8C8',
       },
     },
   },
