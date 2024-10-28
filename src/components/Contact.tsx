@@ -6,12 +6,12 @@ import Img02 from '@/public/Frame 11 (4).png'
 
 function Contact() {
   return (
-    <div className='h-[603px] w-[1170px] ml-[10%]'>
+    <div className='h-auto gap-10 md:gap-0 md:h-[603px] w-screen md:w-[1170px] m-[10%] md:ml-[10%]'>
 
 
         <h2 className='text-gray-400 text-[64px] font-light'>Contact Us</h2>
 
-        <div className='flex gap-7'>
+        <div className='flex flex-col md:flex-row gap-7'>
             <form className='flex flex-col gap-2'>
 
               <input type="text" placeholder='Name' className='h-[46px] w-[391px] bg-input placeholder:px-4' />
@@ -36,7 +36,7 @@ function Contact() {
             </form>
        
 
-            <Image src={Img01} alt='contactImg' height={1000} width={1000} className='h-[369px] w-[749px]'/>
+            <Image src={Img01} alt='contactImg' height={1000} width={1000} className='h-[369px] w-screen md:w-[749px]'/>
 
         </div>
 

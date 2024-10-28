@@ -16,9 +16,9 @@ function Footer() {
   return (
     <div>
 
-        <footer className='h-[417px] w-full bg-ftcolor flex flex-col justify-around text-white  pt-[2%]'>
+        <footer className='h-[800px] md:h-[417px] w-screen md:w-[1440px] bg-ftcolor flex flex-col md:items-start p-10 md:p-0 justify-between md:justify-around text-white  md:pt-[2%]'>
 
-            <div className='flex justify-around'>
+            <div className='flex flex-col md:flex-row justify-evenly md:justify-around items-center gap-20 md:gap-0'>
 
             <div>
 
@@ -26,12 +26,12 @@ function Footer() {
 
             </div>
 
-            <div className='h-[229px] w-[605px] flex gap-36'>
+            <div className='h-auto md:h-[229px] w-[605px] flex flex-col md:flex-row items-center gap-16 md:gap-36'>
 
                 <div>
 
-                   <h3 className='text-[16px] font-bold'>Information</h3>
-                   <ul className='flex flex-col gap-4 mt-4'>
+                   <h3 className='text-[16px] font-bold text-center md:text-start'>Information</h3>
+                   <ul className='flex flex-row md:flex-col items-center gap-2 md:gap-4 mt-4'>
                       <li>Main</li>
                       <li>Gallery</li>
                       <li>Projects</li>
@@ -44,7 +44,7 @@ function Footer() {
 
                 <div>
 
-                    <h3 className='text-[16px] font-bold'>Contacts</h3>
+                    <h3 className='text-[16px] font-bold text-center md:text-start'>Contacts</h3>
                     <ul className='flex flex-col gap-8 mt-4'>
                         <li className='flex gap-4'>
                             <Image src={Img02} alt='location' width={1000} height={1000} className='h-[16px] w-[11px]'/>
@@ -67,11 +67,11 @@ function Footer() {
 
             </div>
 
-            <div className='mr-24'>
+            <div className='md:mr-24'>
 
-                <h3 className='text-[16px] font-bold'>Social Media</h3>
+                <h3 className='text-[16px] font-bold text-center md:text-start'>Social Media</h3>
 
-                <ul className='flex gap-10 mt-7'>
+                <ul className='flex flex-row gap-10 md:gap-10 mt-7'>
                     <li>
                         <Image src={Img05} alt='facebook' width={1000} height={1000} className='h-[19px] w-[10px]'/>
                     </li>
@@ -90,7 +90,8 @@ function Footer() {
 
             </div>
 
-            <div className='w-full h-[6%] pt-[3%] flex justify-center items-center border-t-2 border-opacity-40 border-ftSep'>
+            <div className='w-screen h-[50px] mt-10  pt-[3%] flex justify-center items-center border-t-2 border-opacity-40 border-ftSep
+             md:w-[1440px] md:mt-0 md:h-[6%]'>
                 <p className='text-[12px] text-ftText'>© 2021 All Rights Reserved</p>
             </div>
 

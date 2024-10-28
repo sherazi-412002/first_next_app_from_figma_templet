@@ -8,11 +8,11 @@ import Img05 from '@/public/Frame 10.png';
 
 function HeroSection() {
   return (
-    <div className='flex justify-center gap-36 w-[1170px]  ml-[10%]'>
+    <div className='flex flex-col md:flex-row  justify-center gap-10 md:gap-36 w-screen md:w-[1170px] md:ml-[10%]'>
 
-        <div className='flex flex-col mt-[180px] items-start space-y-12'>
+        <div className='flex flex-col mt-10 md:mt-[180px] items-center md:items-start space-y-8 md:space-y-12'>
 
-            <div className='flex flex-col mt-[220px] text-left leading-none'>
+            <div className='flex flex-col  mt-20 md:mt-[220px] text-center md:text-left leading-none'>
 
               <p className='text-[64px] text-gray-400 font-light'>PROJECT</p>
               <p className='font-bold text-[64px]'>LORUM</p>
@@ -36,8 +36,8 @@ function HeroSection() {
 
         <div className='relative'>
 
-            <Image src={Img01} height={1000} width={1000} alt='mainImg' className=' w-[770px] h-[829px]'/>
-            <Image src={Img05} alt='button' height={1000} width={1000} className='h-[71px] w-[222px] absolute right-[580px] top-[785px]'/>
+            <Image src={Img01} height={1000} width={1000} alt='mainImg' className='w-screen md:w-[770px] h-[390px] md:h-[829px] m-[10%]'/>
+            <Image src={Img05} alt='button' height={1000} width={1000} className='h-[36px] md:h-[71px] w-[111px] md:w-[222px] absolute right-[275px] md:right-[580px] top-[400px] md:top-[785px]'/>
             
          </div>
 

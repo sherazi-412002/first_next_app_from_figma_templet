@@ -7,24 +7,25 @@ import Img04 from '@/public/Frame 11.png';
 
 function About() {
   return (
-    <div className='flex justify-around w-[1170px] h-[465px] ml-[10%]  bg-gray-200 p-6'>
+    <div className='flex flex-col  md:flex-row justify-evenly gap-10 md:gap-0 md:justify-around w-screen md:w-[1170px] 
+    h-auto md:h-[465px] m-[10%] md:ml-[10%]  bg-gray-200 rounded-lg p-12 md:p-6'>
 
         <div className='flex flex-col gap-4'>
 
-        <Image src={Img01} alt='arrow' height={1000} width={1000} className='h-[265px] w-[270px] ml-8'/>
-        <Image src={Img02} alt='arrow' height={1000} width={1000} className='h-[140px] w-[270px] ml-8'/>
+        <Image src={Img01} alt='arrow' height={1000} width={1000} className='h-[265px] w-[270px] md:ml-8'/>
+        <Image src={Img03} alt='arrow' height={1000} width={1000} className='h-[140px] w-[270px] md:ml-8'/>
 
 
         </div>
 
         <div className='h-[80%] mt-[2%]'>
 
-        <Image src={Img03} alt='arrow' height={1000} width={1000} className='h-[345px] w-[270px]'/>
+        <Image src={Img02} alt='arrow' height={1000} width={1000} className='h-[345px] w-[270px]'/>
 
         </div>
 
-        <div className='flex flex-col w-[40%]'>
-
+        <div className='flex flex-col w-[90%] md:w-[40%]'>
+      
             <h1 className='text-[64px] text-gray-400 font-light'>About</h1>
             <p className='text-justify'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys 
                 standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make 
