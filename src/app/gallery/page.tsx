@@ -17,7 +17,7 @@ import Img13 from '@/public/Frame 9.png';
 
 function page() {
   return (
-    <div className='w-[80%] ml-[10%]'>
+    <div className='w-[95%] md:w-[80%] md:ml-[10%] p-3 md:p-0'>
 
       <div className='leading-none'>
 
@@ -28,7 +28,7 @@ function page() {
 
     
 
-      <div className='grid grid-cols-5 gap-6 mt-10 w-[1170px]'>
+      <div className='grid grid-cols-2 md:grid-cols-5 gap-3 md:gap-6 mt-10 w-screen md:w-[1170px]'>
 
         <Image src={Img01} alt='galleryPic' height={1000} width={1000} className='h-[260px] w-[210px]'/>
         <Image src={Img02} alt='galleryPic' height={1000} width={1000} className='h-[260px] w-[210px]'/>

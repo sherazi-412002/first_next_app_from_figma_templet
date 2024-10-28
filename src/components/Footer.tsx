@@ -31,7 +31,7 @@ function Footer() {
                 <div>
 
                    <h3 className='text-[16px] font-bold text-center md:text-start'>Information</h3>
-                   <ul className='flex flex-row md:flex-col items-center gap-2 md:gap-4 mt-4'>
+                   <ul className='flex flex-row md:flex-col items-center text-[14px] md:text-[16px] gap-2 md:gap-4 mt-4'>
                       <li>Main</li>
                       <li>Gallery</li>
                       <li>Projects</li>

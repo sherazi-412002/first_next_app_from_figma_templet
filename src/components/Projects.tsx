@@ -14,9 +14,9 @@ import Link from 'next/link';
 
 function Projects() {
   return (
-    <div className='h-auto md:h-[765px] w-screen md:w-[1170px] m-[10%] md:ml-[10%]'>
+    <div className='h-auto md:h-[765px] w-screen md:w-[1170px] md:ml-[10%] p-3 md:p-0'>
 
-        <h2 className='text-[64px] text-gray-400 font-light'>Our Projects</h2> <br />
+        <h2 className='text-[40px] md:text-[64px] text-gray-400 font-light'>Our Projects</h2> <br />
 
         <div className='flex flex-col gap-4'>
 

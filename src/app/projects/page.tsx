@@ -11,7 +11,7 @@ import Img07 from '@/public/Frame 8.png';
 
 function page() {
   return (
-    <div className='ml-[10%] flex flex-col gap-14'>
+    <div className='md:ml-[10%] flex flex-col gap-14 p-3 md:gap-0'>
 
       <div className='leading-none'>
 
@@ -20,9 +20,9 @@ function page() {
 
       </div>
 
-      <div className='h-[435px] w-[1170px] flex gap-5'>
+      <div className='h-auto md:h-[435px] w-screen md:w-[1170px] flex  flex-col md:flex-row gap-5'>
         <div> <Image src={Img01} alt='1stProject' width={1000} height={1000} className='h-[435px] w-[670px]'/></div>
-        <div className='flex flex-col justify-between h-[435px] w-[440px]'>
+        <div className='flex flex-col justify-between h-auto md:h-[435px] w-screen md:w-[440px]'>
           <h3 className='text-[40px] text-gray-400 font-light'>Sample Project 1</h3>
           <p className='text-justify flex justify-end'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
             Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and 
@@ -34,9 +34,9 @@ function page() {
 
 
 
-      <div className='h-[435px] w-[1170px] flex gap-5'>
-        <div> <Image src={Img02} alt='2ndProject' width={1000} height={1000} className='h-[435px] w-[670px]'/></div>
-        <div className='flex flex-col justify-between h-[435px] w-[440px]'>
+      <div className='h-auto md:h-[435px] w-screen md:w-[1170px] flex flex-col md:flex-row gap-5'>
+        <div> <Image src={Img02} alt='2ndProject' width={1000} height={1000} className='h-auto md:h-[435px] w-screen md:w-[670px]'/></div>
+        <div className='flex flex-col justify-between h-auto md:h-[435px] w-screen md:w-[440px]'>
           <h3 className='text-[40px] text-gray-400 font-light'>Sample Project 2</h3>
           <p className='text-justify flex justify-end'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
             Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and 
@@ -48,9 +48,9 @@ function page() {
 
 
 
-      <div className='h-[435px] w-[1170px] flex gap-5'>
-        <div> <Image src={Img03} alt='3rdProject' width={1000} height={1000} className='h-[435px] w-[670px]'/></div>
-        <div className='flex flex-col justify-between h-[435px] w-[440px]'>
+      <div className='h-auto md:h-[435px] w-screen md:w-[1170px] flex flex-col md:flex-row gap-5'>
+        <div> <Image src={Img03} alt='3rdProject' width={1000} height={1000} className='h-auto md:h-[435px] w-screen md:w-[670px]'/></div>
+        <div className='flex flex-col justify-between h-auto md:h-[435px] w-screen md:w-[440px]'>
           <h3 className='text-[40px] text-gray-400 font-light'>Sample Project 3</h3>
           <p className='text-justify flex justify-end'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
             Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and 

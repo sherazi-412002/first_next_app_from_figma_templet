@@ -8,14 +8,14 @@ function page() {
   return (
     <div>
 
-      <div className='flex gap-40 justify-center'>
+      <div className='flex flex-col md:flex-row gap-20 md:gap-40 justify-center p-3 md:p-0'>
 
         <div className='flex flex-col gap-10'>
 
           <div className='leading-none'>
 
-            <h2 className='text-[64px] text-gray-400 font-light'>Contact</h2>
-            <h2 className='text-[64px] font-bold'>Information</h2>
+            <h2 className='text-[50px] md:text-[64px] text-gray-400 font-light'>Contact</h2>
+            <h2 className='text-[50px] md:text-[64px] font-bold'>Information</h2>
 
           </div>
 
@@ -38,8 +38,8 @@ function page() {
 
         <div className='relative'>
         
-          <Image src={Img02} alt='map' height={1000} width={1000} className='h-[501px] w-[700px]'/>
-          <Image src={Img03} alt='map' height={1000} width={1000} className='h-[55px] w-[55px] top-40 right-52 absolute'/>
+          <Image src={Img02} alt='map' height={1000} width={1000} className='h-auto md:h-[501px] w-screen md:w-[700px] border-x-2 border-black md:border-none '/>
+          <Image src={Img03} alt='map' height={1000} width={1000} className='h-[55px] w-[55px] top-40 right-52 hidden md:absolute'/>
   
         </div>
 
