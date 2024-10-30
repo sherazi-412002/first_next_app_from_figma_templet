@@ -47,7 +47,7 @@ function Navbar() {
 
         {isClick &&  (
             <div className='md:hidden'>
-            <ul className='flex flex-col text-right pr-3 gap-3 pt-24 pb-6  text-2xl hover:duration-300 hover:delay-300'>
+            <ul className='flex flex-col text-right pr-3 gap-3 pt-24 pb-6 ml-36 text-2xl hover:duration-300 hover:delay-300'>
                 <Link href={'/'}><li className='hover:text-white hover:rounded-lg hover:bg-black hover:p-2 hover:duration-300 hover:delay-300 ' >MAIN</li></Link>
                 <Link href={'/gallery'}><li className='hover:text-white hover:rounded-lg hover:bg-black hover:p-2 hover:duration-300 hover:delay-300 ' >GALLERY</li></Link>
                 <Link href={'/projects'}><li className='hover:text-white hover:rounded-lg hover:bg-black hover:p-2  hover:duration-300 hover:delay-300' >PROJECTS</li></Link>

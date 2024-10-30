@@ -11,7 +11,7 @@ import Img07 from '@/public/Frame 8.png';
 
 function page() {
   return (
-    <div className='md:ml-[10%] flex flex-col gap-14 p-3 md:gap-0'>
+    <div className='md:ml-[10%] flex flex-col gap-14 p-3 md:gap-10'>
 
       <div className='leading-none'>
 

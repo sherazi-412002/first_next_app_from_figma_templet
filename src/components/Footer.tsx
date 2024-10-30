@@ -16,9 +16,9 @@ function Footer() {
   return (
     <div>
 
-        <footer className='h-[800px] md:h-[417px] w-screen md:w-[1440px] bg-ftcolor flex flex-col md:items-start p-10 md:p-0 justify-between md:justify-around text-white  md:pt-[2%]'>
+        <footer className='h-[800px] md:h-[417px] w-screen md:w-[1440px] bg-ftcolor flex flex-col md:items-center p-10 md:p-0 justify-between md:justify-around text-white  md:pt-[2%]'>
 
-            <div className='flex flex-col md:flex-row justify-evenly md:justify-around items-center gap-20 md:gap-0'>
+            <div className='flex flex-col md:flex-row justify-evenly md:justify-around items-center md:items-start gap-20 md:gap-28'>
 
             <div>
 
@@ -26,7 +26,7 @@ function Footer() {
 
             </div>
 
-            <div className='h-auto md:h-[229px] w-[605px] flex flex-col md:flex-row items-center gap-16 md:gap-36'>
+            <div className='h-auto md:h-[229px] w-[605px] flex flex-col md:flex-row items-center gap-16 md:gap-40'>
 
                 <div>
 
@@ -91,7 +91,7 @@ function Footer() {
             </div>
 
             <div className='w-screen h-[50px] mt-10  pt-[3%] flex justify-center items-center border-t-2 border-opacity-40 border-ftSep
-             md:w-[1440px] md:mt-0 md:h-[6%]'>
+             md:w-[1440px] md:mt-0'>
                 <p className='text-[12px] text-ftText'>© 2021 All Rights Reserved</p>
             </div>
 

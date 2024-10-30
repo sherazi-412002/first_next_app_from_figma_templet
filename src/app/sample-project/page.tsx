@@ -6,7 +6,7 @@ import Img03 from '@/public/image 35.png';
 
 function page() {
   return (
-    <div className='ml-[10%] flex flex-col gap-10 mt-5'>
+    <div className='ml-[2%] md:ml-[10%] flex flex-col gap-10 mt-5'>
 
       <div className='leading-none'>
 
@@ -19,16 +19,16 @@ function page() {
 
       <div>
 
-        <Image src={Img01} alt='firstImg' height={1000} width={1000} className='h-[435px] w-[1170px]'/>
+        <Image src={Img01} alt='firstImg' height={1000} width={1000} className='h-[435px] w-screen  md:w-[1170px]'/>
 
       </div>
 
 
 
-      <div className='flex gap-5'>
+      <div className='flex flex-col md:flex-row gap-5'>
 
-        <Image src={Img02} alt='firstImg' height={1000} width={1000} className='h-[428px] w-[419px]'/>
-        <p className='mr-[10%] text-justify w-[721px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
+        <Image src={Img02} alt='firstImg' height={1000} width={1000} className='h-[428px] w-screen md:w-[419px]'/>
+        <p className='mr-[25] md:mr-[10%] text-justify w-screen md:w-[721px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
           been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type 
           and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into 
           electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of 
@@ -49,7 +49,7 @@ function page() {
 
       <div>
 
-        <Image src={Img03} alt='firstImg' height={1000} width={1000} className='h-[435px] w-[1170px]'/>
+        <Image src={Img03} alt='firstImg' height={1000} width={1000} className='h-[435px] w-screen md:w-[1170px]'/>
 
       </div>
 
