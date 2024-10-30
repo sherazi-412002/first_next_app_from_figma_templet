@@ -24,7 +24,7 @@ function page() {
         <div> <Image src={Img01} alt='1stProject' width={1000} height={1000} className='h-[435px] w-[670px]'/></div>
         <div className='flex flex-col justify-between h-auto md:h-[435px] w-screen md:w-[440px]'>
           <h3 className='text-[40px] text-gray-400 font-light'>Sample Project 1</h3>
-          <p className='text-justify flex justify-end'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+          <p className='text-justify md:flex md:justify-end'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
             Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and 
             scrambled it to make a type specimen book.</p>
           <Image src={Img04} alt='1stProject' width={1000} height={1000} className='h-[71px] w-[222px]'/>
@@ -38,7 +38,7 @@ function page() {
         <div> <Image src={Img02} alt='2ndProject' width={1000} height={1000} className='h-auto md:h-[435px] w-screen md:w-[670px]'/></div>
         <div className='flex flex-col justify-between h-auto md:h-[435px] w-screen md:w-[440px]'>
           <h3 className='text-[40px] text-gray-400 font-light'>Sample Project 2</h3>
-          <p className='text-justify flex justify-end'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+          <p className='text-justify md:flex md:justify-end'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
             Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and 
             scrambled it to make a type specimen book.</p>
           <Image src={Img04} alt='1stProject' width={1000} height={1000} className='h-[71px] w-[222px]'/>
@@ -52,7 +52,7 @@ function page() {
         <div> <Image src={Img03} alt='3rdProject' width={1000} height={1000} className='h-auto md:h-[435px] w-screen md:w-[670px]'/></div>
         <div className='flex flex-col justify-between h-auto md:h-[435px] w-screen md:w-[440px]'>
           <h3 className='text-[40px] text-gray-400 font-light'>Sample Project 3</h3>
-          <p className='text-justify flex justify-end'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+          <p className='text-justify md:flex md:justify-end'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
             Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and 
             scrambled it to make a type specimen book.</p>
           <Image src={Img04} alt='1stProject' width={1000} height={1000} className='h-[71px] w-[222px]'/>

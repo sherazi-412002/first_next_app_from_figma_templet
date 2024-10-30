@@ -14,22 +14,22 @@ function Contact() {
         <div className='flex flex-col md:flex-row gap-7'>
             <form className='flex flex-col gap-2'>
 
-              <input type="text" placeholder='Name' className='h-[46px] w-[391px] bg-input placeholder:px-4' />
+              <input type="text" placeholder='Name' className='h-[46px] w-screen md:w-[391px] bg-input placeholder:px-4' />
 
               <div className='relative'>
-              <input type="phone" placeholder='Phone Number' className='h-[45px] w-[391px] bg-input placeholder:px-4' required/>
+              <input type="phone" placeholder='Phone Number' className='h-[45px] w-screen md:w-[391px] bg-input placeholder:px-4' required/>
               <span className="absolute right-[215px] md:right-64 top-2 text-red-500">*</span>
               </div>
 
               <div className='relative'>
-              <input type="email" placeholder='E-mail' className='h-[46px] w-[391px] bg-input placeholder:px-4' required />
+              <input type="email" placeholder='E-mail' className='h-[46px] w-screen md:w-[391px] bg-input placeholder:px-4' required />
               <span className="absolute right-[278px] md:right-80 top-2 text-red-500">*</span>
               </div>
 
               <input type="text" placeholder='Interested In' className='h-[46px] w-[391px] bg-input placeholder:px-4' />
              
               <div className='relative'>
-              <textarea placeholder='Message' className='h-[147px] w-[391px] bg-input placeholder:px-4 resize-none' required></textarea>
+              <textarea placeholder='Message' className='h-[147px] w-screen md:w-[391px] bg-input placeholder:px-4 resize-none' required></textarea>
               <span className="absolute top-0 right-[260px] md:right-[297px] text-red-500">*</span>
               </div>
 
