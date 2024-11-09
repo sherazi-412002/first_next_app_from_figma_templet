@@ -16,11 +16,11 @@ function Navbar() {
   return (
     <div>
 
-        <nav className='w-screen md:w-[1440px] h-[102px] fixed  flex justify-between md:justify-around items-center'>
+        <nav className='w-full md:w-[1440px] h-[102px] fixed  flex justify-between md:justify-around items-center'>
 
             <div>
 
-                <Image  src={logo} height={1000} width={1000} alt='logo' className='w-[70px] h-[43.7px] ml-5 md:ml-0 mr-20'/>
+                <Image  src={logo} height={1000} width={1000} alt='logo' className='w-[70px] h-[43.7px] ml-8 md:ml-0 mr-20'/>
 
             </div>
 
@@ -37,7 +37,7 @@ function Navbar() {
 
             </div>
 
-            <div onClick={toggleNavbar} className='md:hidden block items-center mr-3'>
+            <div onClick={toggleNavbar} className='md:hidden block items-center mr-6'>
 
                 {isClick?(<div><RxCross2 size={40}  color='black'/></div>):(<div><GiHamburgerMenu size={40} color='black' /></div>)}
 
