@@ -17,7 +17,7 @@ import Img13 from '@/public/Frame 9.png';
 
 function page() {
   return (
-    <div className='w-[95%] md:w-[80%] md:ml-[10%] p-3 md:p-0'>
+    <div className='w-auto md:w-[80%] md:ml-[10%] p-5 md:p-0'>
 
       <div className='leading-none'>
 
@@ -28,18 +28,18 @@ function page() {
 
     
 
-      <div className='grid grid-cols-2 md:grid-cols-5 gap-3 md:gap-6 mt-10 w-screen md:w-[1170px]'>
+      <div className='grid grid-cols-2 md:grid-cols-5 gap-3 md:gap-6 mt-10 w-auto md:w-[1170px]'>
 
-        <Image src={Img01} alt='galleryPic' height={1000} width={1000} className='h-[260px] w-[210px]'/>
-        <Image src={Img02} alt='galleryPic' height={1000} width={1000} className='h-[260px] w-[210px]'/>
-        <Image src={Img03} alt='galleryPic' height={1000} width={1000} className='h-[260px] w-[210px]'/>
-        <Image src={Img04} alt='galleryPic' height={1000} width={1000} className='h-[260px] w-[210px]'/>
-        <Image src={Img05} alt='galleryPic' height={1000} width={1000} className='h-[260px] w-[210px]'/>
-        <Image src={Img06} alt='galleryPic' height={1000} width={1000} className='h-[260px] w-[210px]'/>
-        <Image src={Img07} alt='galleryPic' height={1000} width={1000} className='h-[260px] w-[210px]'/>
-        <Image src={Img08} alt='galleryPic' height={1000} width={1000} className='h-[260px] w-[210px]'/>
-        <Image src={Img09} alt='galleryPic' height={1000} width={1000} className='h-[260px] w-[210px]'/>
-        <Image src={Img10} alt='galleryPic' height={1000} width={1000} className='h-[260px] w-[210px]'/>
+        <Image src={Img01} alt='galleryPic' height={1000} width={1000} className='h-[260px] w-auto md:w-[210px]'/>
+        <Image src={Img02} alt='galleryPic' height={1000} width={1000} className='h-[260px] w-auto md:w-[210px]'/>
+        <Image src={Img03} alt='galleryPic' height={1000} width={1000} className='h-[260px] w-auto md:w-[210px]'/>
+        <Image src={Img04} alt='galleryPic' height={1000} width={1000} className='h-[260px] w-auto md:w-[210px]'/>
+        <Image src={Img05} alt='galleryPic' height={1000} width={1000} className='h-[260px] w-auto md:w-[210px]'/>
+        <Image src={Img06} alt='galleryPic' height={1000} width={1000} className='h-[260px] w-auto md:w-[210px]'/>
+        <Image src={Img07} alt='galleryPic' height={1000} width={1000} className='h-[260px] w-auto md:w-[210px]'/>
+        <Image src={Img08} alt='galleryPic' height={1000} width={1000} className='h-[260px] w-auto md:w-[210px]'/>
+        <Image src={Img09} alt='galleryPic' height={1000} width={1000} className='h-[260px] w-auto md:w-[210px]'/>
+        <Image src={Img10} alt='galleryPic' height={1000} width={1000} className='h-[260px] w-auto md:w-[210px]'/>
         
       </div>
 

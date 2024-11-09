@@ -8,7 +8,7 @@ function page() {
   return (
     <div>
 
-      <div className='flex flex-col md:flex-row gap-20 md:gap-40 justify-center items-center md:items-start p-3 md:p-0'>
+      <div className='flex flex-col w-auto md:w-full md:flex-row gap-20 md:gap-40 justify-center items-center md:items-start p-3 md:p-0'>
 
         <div className='flex flex-col gap-10'>
 
@@ -38,7 +38,7 @@ function page() {
 
         <div className='relative'>
         
-          <Image src={Img02} alt='map' height={1000} width={1000} className='h-auto md:h-[501px] w-screen lg:w-[700px] border-x-2 border-black md:border-none '/>
+          <Image src={Img02} alt='map' height={1000} width={1000} className='h-auto md:h-[501px] w-auto lg:w-[700px] border-x-2 border-black md:border-none '/>
           <Image src={Img03} alt='map' height={1000} width={1000} className='h-[55px] w-[55px] top-40 right-52 hidden md:absolute'/>
   
         </div>

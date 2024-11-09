@@ -90,7 +90,7 @@ function Footer() {
 
             </div>
 
-            <div className='w-screen h-[50px] mt-10  pt-[3%] flex justify-center items-center border-t-2 border-opacity-40 border-ftSep
+            <div className='w-auto h-[50px] mt-10  pt-[3%] flex justify-center items-center border-t-2 border-opacity-40 border-ftSep
              md:w-[1440px] md:mt-0'>
                 <p className='text-[12px] text-ftText'>© 2021 All Rights Reserved</p>
             </div>

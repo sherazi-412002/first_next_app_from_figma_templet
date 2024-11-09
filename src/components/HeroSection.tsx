@@ -8,7 +8,7 @@ import Img05 from '@/public/Frame 10.png';
 
 function HeroSection() {
   return (
-    <div className='flex flex-col md:flex-row  justify-center gap-10 md:gap-36 w-screen md:w-[1170px] p-3 md:p-0 md:ml-[10%]'>
+    <div className='flex flex-col md:flex-row  justify-center gap-10 md:gap-36 w-auto md:w-[1170px] p-3 md:p-0 md:ml-[10%]'>
 
         <div className='flex flex-col mt-10 md:mt-[180px] items-center md:items-start space-y-8 md:space-y-12'>
 
@@ -36,7 +36,7 @@ function HeroSection() {
 
         <div className='relative'>
 
-            <Image src={Img01} height={1000} width={1000} alt='mainImg' className='w-screen md:w-[770px] h-[390px] md:h-[829px]'/>
+            <Image src={Img01} height={1000} width={1000} alt='mainImg' className='w-full md:w-[770px] h-[390px] md:h-[829px]'/>
             <Image src={Img05} alt='button' height={1000} width={1000} className='h-[36px] md:h-[71px] w-[111px] md:w-[222px] md:absolute md:right-[580px] md:top-[785px]'/>
             
          </div>

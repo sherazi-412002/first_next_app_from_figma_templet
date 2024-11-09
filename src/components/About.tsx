@@ -7,7 +7,7 @@ import Img04 from '@/public/Frame 11.png';
 
 function About() {
   return (
-    <div className='p-3 md:p-0 w-screen md:w-[1170px] 
+    <div className='p-3 md:p-0 md:w-[1170px] w-auto
           h-auto md:h-[465px] md:ml-[10%]'>
         <div className='flex flex-col  md:flex-row justify-evenly gap-10 md:gap-0 md:justify-around  bg-gray-200 rounded-lg p-10 md:p-6'>
 
@@ -25,7 +25,7 @@ function About() {
 
           </div>
 
-          <div className='flex flex-col w-[90%] md:w-[40%]'>
+          <div className='flex flex-col w-auto md:w-[40%]'>
       
             <h1 className='text-[50px] md:text-[64px] text-gray-400 font-light'>About</h1>
               <p className='text-justify'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys 
